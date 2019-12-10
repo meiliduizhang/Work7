@@ -1,0 +1,100 @@
+  *{
+		margin: 0;
+		padding: 0;
+	}
+	ul,li{
+		list-style: none;
+	}
+	body{
+		margin: 0 auto;
+	}
+	.gundong{
+		width: 100%;
+		height: 30px;
+		margin : 0 auto;
+		background-color:gray ;
+	}
+	.laba{
+		margin: 0 auto;
+		margin-left: 250px;
+		padding-top: 5px;
+		float: left;
+	}
+	.kuai{
+		margin-left: 280px;
+		width: 1000px;
+		height: 30px;
+		overflow: hidden;
+	}
+	.wenzi{
+		width: 500px;
+ 		margin: 0 auto;
+		padding-top: 3px;
+		position: relative;
+		right:-700px;
+	}
+	.wenzi p{
+		height: 30px;
+		width: 500px;
+		color: red;
+		position: relative;
+		right: -100px;
+	}
+	.box{
+		height: 382px;
+		width: 1200px;
+		border: 1px solid black;
+		margin: 10px auto;
+		position: relative;
+		overflow: hidden;
+	}
+	.slider{
+		width: 8400px;/* 七张图片的宽度 */
+		position: absolute;
+		left: -1200px;/* 初始定位 */
+	}
+	.slide{
+		width: 1200px;
+		overflow: hidden;
+		float: left;
+	}
+	.box>span{
+		display: block;
+		width: 30px;
+		height: 50px;
+		background-color: red;
+		text-align: center;
+		cursor: pointer;
+		text-align: center;
+		color: white;
+		font-size: 30px;
+	}
+	#left{
+		margin-left: 30px;
+		margin-top: 160px;
+		float: left;
+	}
+	#right{
+		margin-right: 30px;
+		margin-top: 160px;
+		float: right;
+	}
+	.nav{
+		position: absolute;
+		left: 500px;
+		bottom: 20px;
+	}
+	.nav>li{
+		float: left;
+		width: 20px;
+		height: 20px;
+		background: #ccc;
+		cursor: pointer;
+		margin: 0 auto;
+		margin-left: 15px;
+		border-radius: 50%;
+		text-align: center;
+	}
+	.nav .active{
+		background-color: red;
+	}
